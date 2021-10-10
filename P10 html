@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type= "text/css" href="P10.css">
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="javascript:void(0)">The Cosmic Bodega</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Customers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://nathanjcrozier.github.io/TheCosmicBodega/">Online Store</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" width="150px" src="https://www.kindpng.com/picc/m/421-4212623_gd-avatar-alien-circle-hd-png-download.png"><span class="font-weight-bold"></span><span> </span></div>
+
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h4 class="text-right"><h2>Profile Settings</h2></h4>
+</div>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+    
+<div class="container mt-6 mb-5">
+    <div class="row">
+      
+           
+        </div>
+            <div class="p-3 py-5">
+                <div class="row mt-3">
+                    <div class="col-md-6"><label class="labels">First Name</label><input type="text" class="form-control" placeholder="enter first name" value="Nora"></div>
+                    <div class="col-md-6"><label class="labels">Last Name</label><input type="text" class="form-control" value="Night" placeholder="enter last name"></div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-12"><label class="labels">Phone Number</label><input type="text" class="form-control" placeholder="enter phone number" value="333-666-9999"></div>
+                    <div class="col-md-12"><label class="labels">Street Address</label><input type="text" class="form-control" placeholder="enter street address" value="20-25 Orokin blvd."></div>
+                    <div class="col-md-12"><label class="labels">Postal Code</label><input type="text" class="form-control" placeholder="enter postal code" value="X9X 9X9"></div>
+                    
+                   
+                    <div class="row mt-3">
+                        <div class="col-md-6"><label class="labels">Area</label><input type="text" class="form-control" placeholder="enter area" value="Exequias"></div>
+                        <div class="col-md-6"><label class="labels">Planet</label><input type="text" class="form-control" value="Deimos" placeholder="enter planet"></div>
+                    </div>
+
+                    <div class="col-md-12"><label class="labels">Email Address</label><input type="text" class="form-control" placeholder="enter email address" value="vsolaris68796@umbra.ex"></div>
+                    <div class="col-md-12"><label class="labels">Password</label><input type="text" class="form-control" placeholder="enter password" value="&#8226&#8226&#8226&#8226&#8226&#8226&#8226&#8226&#8226&#8226"></div>
+                    
+                </div>
+               
+                <div class="mt-6 text-center"><button class="btn btn-primary profile-button" type="button">Save Changes</button></div>
+            </div>
+        </div>
+      
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+</body>
+
+
+</html>
