@@ -1,0 +1,73 @@
+.navbar{
+background-color: rgb(47, 47, 65);
+}
+
+.navbar-brand{
+color: aliceblue;
+}
+
+
+.nav-link{
+  margin: 1em;
+  color: rgba(255, 255, 255, 0.404);
+}
+
+
+.container{
+    background-color: #3dcee773;
+}
+
+
+html {
+    background: #4c81e2;
+    font: 62.5%/1.5em "Trebuchet Ms", helvetica;
+  }
+  
+  * {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+
+
+.d-flex{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-bottom: 2em;
+}
+
+
+
+
+.labels{
+  margin-top: 1em;
+}
+
+
+
+
+
+.profile-button {
+    margin-top: 0.5em;
+    margin-bottom: 5em;
+    float: right;
+    -ms-flex-align:end;
+   
+    background: #6b6;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    display: block;
+    align-content:space-between;
+}
+
+.profile-button:hover {
+    background: #494
+}
+
+
+.labels {
+    font-size: 15px;
+}
