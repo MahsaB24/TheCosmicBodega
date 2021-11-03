@@ -1,0 +1,172 @@
+html {
+  background: #2d77e6;
+  font: 75%/1.5em "Trebuchet Ms", helvetica;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+  max-width: 60%;
+  margin: 3%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4em;
+  box-shadow: 0 0.5em 0 rgba(151, 204, 224, 0.377);
+  padding: 0.6em;
+  position: relative;
+  z-index: 1;
+  color: #f7f7f7;
+  background: #2d77e6;
+}
+
+/* product description */
+p {
+  font-size: 1.1em;
+  color: #2759e6;
+}
+
+/* quantity input */
+input {
+  border: 0.2em solid #4c81e2;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  width: 60px;
+}
+
+img {
+  max-width: 9em;
+  width: 100%;
+  overflow: hidden;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* TABLE */
+.product-title,
+.remove-product,
+.product-price,
+.product-quantity,
+.product-line-price {
+  font-size: 1.5em;
+}
+.table {
+  background: #fafafd;
+  border-radius: 0.6em;
+  margin-top: 3em;
+  margin-left: 1.5em;
+  max-width: 65%;
+}
+
+.product-title,
+.remove-product,
+.product-price,
+.product-quantity,
+.product-line-price {
+  font-size: 1.5em;
+}
+
+.layout-inline {
+  text-align: center;
+  display: inline-block;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.th {
+  background: #a39090;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.table-header {
+  font-size: 85%;
+  font-weight: bold;
+}
+
+.tf p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.remove-product {
+  border: 0;
+  padding: 4px 8px;
+  background-color: #c66;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.remove-product:hover {
+  background-color: #a44;
+}
+
+.summary-components {
+  float: left;
+  font-size: 1.5em;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+label {
+  float: left;
+  clear: both;
+  width: 79%;
+  color: rgba(151, 15, 15, 0.603);
+  text-align: right;
+}
+
+.summary-value {
+  float: right;
+  margin-right: 10%;
+}
+
+.checkout {
+  float: right;
+  -ms-flex-align: end;
+  border: 0;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 6px 25px;
+  background-color: #6b6;
+  color: #fff;
+  font-size: 25px;
+  border-radius: 3px;
+}
+.checkout:hover {
+  background-color: #494;
+}
+
+.summary {
+  position: absolute;
+  bottom: 25px;
+  left: 70%;
+  transform: translateX(-50%, -50%);
+  border: 5px solid #a39090;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fafafd;
+  max-width: 40%;
+  margin-right: 3%;
+}
+
+label {
+  text-align: left;
+}
